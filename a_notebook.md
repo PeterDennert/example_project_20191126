@@ -22,12 +22,12 @@ import numpy as np
 from matplotlib import pyplot as plt
 ```
 
-Then, plot 1000 pairs of random numbers in the x-y plane.
+Then, plot 10000 pairs of random numbers in the x-y plane.
 
 ```python
 plt.scatter(
-    np.random.normal(size=(1000, )),
-    np.random.normal(size=(1000, )),
+    np.random.normal(size=(10000, )),
+    np.random.normal(size=(10000, )),
     alpha=0.2
 );
 ```
